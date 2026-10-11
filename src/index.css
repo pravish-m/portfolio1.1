@@ -1,0 +1,44 @@
+:root {
+  font-family: 'Times New Roman', Times, serif;
+  color: #f8fafc;
+  background: #020617;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(118deg, rgba(124, 58, 237, 0.13), transparent 46%),
+    linear-gradient(25deg, transparent 45%, rgba(34, 211, 238, 0.06)),
+    repeating-linear-gradient(135deg, transparent 0, transparent 18px, rgba(148, 163, 184, 0.035) 19px, transparent 20px),
+    #020617;
+}
+
+body,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 4px;
+}
+
+#root {
+  min-height: 100vh;
+}
